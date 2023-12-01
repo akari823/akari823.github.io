@@ -1,6 +1,6 @@
 // ページ1へ遷移する関数
 function redirectToPage1() {
-  var page1Url = 'index.html'; // ページ1の URL を入力してください
+  var page1Url = 'new.html'; // ページ1の URL を入力してください
   window.location.href = page1Url;
 }
 
