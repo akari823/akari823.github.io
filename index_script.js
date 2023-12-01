@@ -26,7 +26,7 @@ window.history.back();
 
 function goHome() {
 // 特定のページのURLに遷移する
-window.location.href = 'home.html';
+window.location.href = 'index.html';
 }
 
 document.getElementById('imageInput').addEventListener('change', function(e) {
