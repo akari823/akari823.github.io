@@ -79,5 +79,5 @@ function goBack() {
 
 function goHome() {
   // 特定のページのURLに遷移する
-  window.location.href = 'home.html';
+  window.location.href = 'index.html';
 }
