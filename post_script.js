@@ -68,7 +68,7 @@ if (postData) {
 } else {
   // 投稿データがない場合の処理
   const noDataMessage = document.createElement('p');
-  noDataMessage.textContent = '投稿された内容はありません';
+  noDataMessage.textContent = '';
   postContent.appendChild(noDataMessage);
 }
 
