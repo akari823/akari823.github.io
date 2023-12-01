@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>投稿フォーム</title>
+  <!-- CSS リンク -->
+  <link rel="stylesheet" href="index_style.css">
+</head>
+<body>
+  <button class="back-button" onclick="goBack()">
+    <img src="back.png" alt="戻る">
+  </button>
+  <button class="home-button" onclick="goHome()">
+    <img src="home.png" alt="戻る">
+  </button>
+  <h1>新規投稿</h1>
+  <form id="postForm">
+    <div class="label-wrapper">
+      <label for="imageInput">
+        <img id="placeholderImage" src="file.png" alt="画像選択">
+      </label>
+      <input type="file" id="imageInput" accept="image/*" style="display: none;">
+      <div id="imageContainer">
+        <img id="selectedImage" src="">
+      </div>      
+    </div>
+    <textarea id="textInput" placeholder="説明を入力してください"></textarea> <!-- テキスト入力 -->
+    <button class="send-button" type="submit">
+      <img src="send.png" alt="投稿">
+    </button> <!-- 投稿ボタン -->
+  </form>
+
+  <!-- JavaScript リンク -->
+  <script src="index_script.js"></script>
+
+</body>
+</html>

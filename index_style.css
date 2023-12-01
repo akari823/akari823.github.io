@@ -1,0 +1,69 @@
+body {
+  background-color: #e6f7ff; /* 背景色を指定 */
+}
+
+h1 {
+  font-size: 68px;
+  text-align: center;
+}
+
+#postForm {
+  margin-bottom: 20px;
+}
+
+#textInput {
+  font-size: 36px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 100px;
+}
+
+.label-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px; /* 下側に隙間を追加 */
+}
+
+.label-wrapper label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px; /* 下側に隙間を追加 */
+}
+
+#selectedImage {
+  width: 400px; /* 幅を指定 */
+  height: auto; /* 高さを自動調整（アスペクト比を維持） */
+}
+
+/* ボタンに適用するスタイル */
+.back-button {
+  display: inline-block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.send-button {
+  display: inline-block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  right: 10%;
+}
+
+.home-button {
+  display: inline-block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  right: 0;
+}

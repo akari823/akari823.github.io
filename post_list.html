@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>投稿一覧</title>
+  <!-- CSS リンク -->
+  <link rel="stylesheet" href="post_style.css">
+</head>
+<body>
+  <button class="back-button" onclick="goBack()">
+    <img src="back.png" alt="戻る">
+  </button>
+  <button class="home-button" onclick="goHome()">
+    <img src="home.png" alt="ホーム画面">
+  </button>
+  <h1>募集一覧</h1>
+  <div class="search">
+    <input type="text" id="searchInput" placeholder="キーワード検索">
+    <button id="search-button">
+      <img src="search2.png" alt="検索">
+    </button>
+  </div>
+  <ul id="searchResults"></ul>
+  <div class="post-container" id="post-1">
+    <!-- 投稿内容 -->
+    <h2>【「体験設計」「UX」に挑戦】<br>白浜でワーケーション型仕事体験</h2>
+    <img src="sea.jpg" alt="投稿画像1">
+    <p>&nbsp;自然豊かな環境とリラックスできる雰囲気を活かし、「体験設計」「UX」について考えます。</p>
+    <!-- チャット画面 -->
+    <div class="chat-container" id="chat-container-1">
+      <!-- チャットメッセージが表示される部分 -->
+      <p>【チャット】</p>
+      <p>ユーザーA: こんにちは！</p>
+      <p>ユーザーB: こんにちは！</p>
+      <textarea placeholder="コメントを入力してください"></textarea>
+      <button>送信</button>
+      <button class="close-chat-btn">閉じる</button>
+    </div>
+  </div>
+  <div class="post-container" id="post-2">
+    <!-- 投稿内容 -->
+    <h2>串本・那智勝浦の地域力を創造する<br>-ワーケーションコース-</h2>
+    <img src="nachikatsuura.jpg" alt="投稿画像2">
+    <p>&nbsp;和歌山県串本町・那智勝浦町を拠点に、地域課題の解決に取り組む2泊3日のワーケーションプログラム。</p>
+    <!-- チャット画面 -->
+    <div class="chat-container" id="chat-container-2">
+      <!-- チャットメッセージが表示される部分 -->
+      <p>【チャット】</p>
+      <p>ユーザーC: こんにちは！</p>
+      <p>ユーザーD: こんにちは！</p>
+      <textarea placeholder="コメントを入力してください"></textarea>
+      <button>送信</button>
+      <button class="close-chat-btn">閉じる</button>
+    </div>
+  </div>
+  <div id="displayArea"></div>
+  <div id="postContent">
+    <!-- ここに投稿一覧が表示される -->
+  </div>
+
+  <!-- JavaScript リンク -->
+  <script src="post_script.js"></script>
+
+</body>
+</html>

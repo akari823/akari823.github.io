@@ -1,0 +1,49 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* .main-visualクラスのスタイル */
+.main-visual {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* ビューポートの高さに合わせる */
+  overflow: hidden;
+}
+
+.main-visual img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 画像を可能な限り大きく表示 */
+}
+
+.myButton1 {
+  display: inline-block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  transform: translateX(50%);
+}
+
+.myButton2
+{
+  display: inline-block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+  transform: translateX(50%);
+}
